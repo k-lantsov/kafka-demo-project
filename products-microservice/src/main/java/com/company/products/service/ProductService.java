@@ -4,5 +4,5 @@ import com.company.products.controller.model.CreateProductRestModel;
 
 public interface ProductService {
 
-    String createProduct(CreateProductRestModel createProductRestModel);
+    String createProduct(CreateProductRestModel createProductRestModel) throws Exception;
 }
