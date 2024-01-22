@@ -1,4 +1,4 @@
-package com.company.products.service.kafka;
+package com.company.core.kafka;
 
 import java.math.BigDecimal;
 

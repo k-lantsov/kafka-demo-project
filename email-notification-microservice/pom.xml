@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.company</groupId>
-    <artifactId>email-notification-service</artifactId>
+    <artifactId>email-notification-microservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>email-notification-service</name>
-    <description>email-notification-service</description>
+    <name>email-notification-microservice</name>
+    <description>email-notification-microservice</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -24,6 +24,12 @@
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.company</groupId>
+            <artifactId>core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>

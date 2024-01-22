@@ -1,8 +1,8 @@
 package com.company.products.service.impl;
 
+import com.company.core.kafka.ProductCreatedEvent;
 import com.company.products.controller.model.CreateProductRestModel;
 import com.company.products.service.ProductService;
-import com.company.products.service.kafka.ProductCreatedEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
