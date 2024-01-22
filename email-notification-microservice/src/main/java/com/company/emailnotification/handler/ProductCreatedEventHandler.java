@@ -1,4 +1,4 @@
-package handler;
+package com.company.emailnotification.handler;
 
 import com.company.core.kafka.ProductCreatedEvent;
 import org.slf4j.Logger;
